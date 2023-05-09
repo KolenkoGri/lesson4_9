@@ -23,7 +23,6 @@ const cart = {
     this.items.forEach((item) => {
       val += item.price * item.sum;
     });
-    console.log(val);
     return val;
   },
   clear() {
